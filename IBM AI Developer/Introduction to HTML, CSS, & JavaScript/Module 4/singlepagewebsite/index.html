@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chris Iag - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Chris Irag
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          iragca@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://github.com/iragca/web-hosting/blob/main/web-assets/Coursera/IBM%20AI%20Developer/Introduction%20to%20HTML,%20CSS,%20&%20JavaScript/Module%204/casual_1000.png?raw=true" 
+        class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Chris Irag! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am a data science student, looking to expand my skillsets by learning how to code and develop websites.
+            I have worked with Python and made interactive Generative AI chatbots by using the 
+            Python framework Streamlit for quick building and deployment of websites, 
+            which required little knowledge of HTML, CSS, & JavaScript.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/CSS3.png"/>
+          <h6>CSS</h6>
+          <p>3 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/Python.png"/>
+          <h6>Python</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/java.png"/>
+          <h6>Java</h6>
+          <p>1 year experience</p>
+        </div> 
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>GenAI Chatbot</h3>
+            <ul>
+              <li>Developed a simple chatbot similar to that of ChatGPT with a user-friendly interface using LangChain and Streamlit</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>HR Resume Screener</h3>
+            <ul>
+              <li>Developed an HR resume parsing tool using Generative AI, Pinecone vector store, LangChain, and Streamlit</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Anime Stats Dashboard</h3>
+            <ul>
+              <li>Developed an Anime analytics dashboard that focuses on descriptive data using GraphQL APIs and Streamlit</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Chris has consistently demonstrated exceptional problem-solving skills and a 
+          deep understanding of web development and generative AI tools. His ability to 
+          transform complex concepts into practical applications is remarkable, making 
+          him a valuable team player and a future leader.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          It was an absolute pleasure working with Chris on AI-based projects. 
+          His expertise in technologies like LangChain, Streamlit, and Python stood out, 
+          and his proactive attitude ensured smooth collaboration and project success. 
+          I would highly recommend Chris for any cutting-edge tech projects.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Chris is a highly dedicated professional with an incredible aptitude for 
+          learning and implementing innovative solutions. His work on developing interactive 
+          dashboards and AI chatbots showcases his technical prowess and creative thinking, 
+          which will undoubtedly make him an asset to any organization.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Recommendation posted!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
