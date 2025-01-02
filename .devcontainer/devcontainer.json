@@ -1,7 +1,7 @@
 {
     "name": "Coursera",
     "image":"mcr.microsoft.com/devcontainers/universal:2",
-    "postCreateCommand": "sudo apt update && sudo apt upgrade -y",
+    "postCreateCommand": "sudo apt update && sudo apt upgrade -y && pip install virtualenv",
 
     // Container specs
     "hostRequirements": {
@@ -21,5 +21,8 @@
             "GitHub.copilot"
             ]
         }
+    },
+    "features": {
+        "ghcr.io/devcontainers-extra/features/pipenv:2": {}
     }
 }
