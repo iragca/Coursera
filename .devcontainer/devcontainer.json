@@ -1,6 +1,7 @@
 {
     "name": "Coursera",
     "image":"mcr.microsoft.com/devcontainers/universal:2",
+    "postCreateCommand": "sudo apt update && sudo apt upgrade -y && pip install virtualenv",
 
     // Container specs
     "hostRequirements": {
@@ -16,9 +17,11 @@
         "extensions": [
             "ms-python.python",
             "esbenp.prettier-vscode",
-            "tabnine.tabnine-vscode",
             "GitHub.copilot"
             ]
         }
+    },
+    "features": {
+        "ghcr.io/devcontainers-extra/features/pipenv:2": {}
     }
 }
