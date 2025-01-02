@@ -1,0 +1,23 @@
+{
+    "name": "Coursera",
+    "image":"mcr.microsoft.com/devcontainers/universal:2",
+
+    // Container specs
+    "hostRequirements": {
+        "cpus": 2,
+        "memory": "8gb",
+        "storage": "64gb"
+    },
+
+    "customizations": {
+    // Configure properties specific to VS Code.
+        "vscode": {
+        // Add the IDs of extensions you want installed when the container is created.
+        "extensions": [
+            "ms-python.python",
+            "esbenp.prettier-vscode",
+            "tabnine.tabnine-vscode"
+            ]
+        }
+    }
+}
