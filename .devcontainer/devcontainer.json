@@ -6,7 +6,7 @@
     "hostRequirements": {
         "cpus": 2,
         "memory": "8gb",
-        "storage": "64gb"
+        "storage": "32gb"
     },
 
     "customizations": {
