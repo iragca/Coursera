@@ -16,7 +16,8 @@
         "extensions": [
             "ms-python.python",
             "esbenp.prettier-vscode",
-            "tabnine.tabnine-vscode"
+            "tabnine.tabnine-vscode",
+            "GitHub.copilot"
             ]
         }
     }
