@@ -1,6 +1,7 @@
 {
     "name": "Coursera",
     "image":"mcr.microsoft.com/devcontainers/universal:2",
+    "postCreateCommand": "sudo apt update && sudo apt upgrade -y",
 
     // Container specs
     "hostRequirements": {
