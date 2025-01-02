@@ -1,0 +1,7 @@
+transformers
+torch
+gradio
+langchain
+langchain-community
+ibm_watson_machine_learning
+huggingface-hub
