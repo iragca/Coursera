@@ -17,7 +17,11 @@
         "extensions": [
             "ms-python.python",
             "esbenp.prettier-vscode",
-            "GitHub.copilot"
+            "GitHub.copilot",
+            "yandeu.five-server",
+            "genuitecllc.codetogether",
+            "streetsidesoftware.code-spell-checker",
+            "visualstudioexptteam.vscodeintellicode"
             ]
         }
     },
