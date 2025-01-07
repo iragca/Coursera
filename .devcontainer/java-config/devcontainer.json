@@ -18,7 +18,8 @@
                 "genuitecllc.codetogether",
                 "streetsidesoftware.code-spell-checker",
                 "visualstudioexptteam.vscodeintellicode",
-                "vscjava.vscode-java-pack"
+                "vscjava.vscode-java-pack",
+                "formulahendry.code-runner"
             ]
         }
     }
