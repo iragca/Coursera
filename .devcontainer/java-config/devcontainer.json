@@ -1,0 +1,25 @@
+{
+    "name": "Coursera-java",
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "postCreateCommand": "sudo apt update && sudo apt upgrade -y",
+    // Container specs
+    "hostRequirements": {
+        "cpus": 2,
+        "memory": "8gb",
+        "storage": "32gb"
+    },
+    "customizations": {
+        // Configure properties specific to VS Code.
+        "vscode": {
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "GitHub.copilot",
+                "genuitecllc.codetogether",
+                "streetsidesoftware.code-spell-checker",
+                "visualstudioexptteam.vscodeintellicode",
+                "vscjava.vscode-java-pack"
+            ]
+        }
+    }
+}
