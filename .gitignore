@@ -2,3 +2,6 @@
 myenv
 .gradio
 flagged
+node_modules
+package-lock.json
+.env

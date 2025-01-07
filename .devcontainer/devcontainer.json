@@ -1,7 +1,8 @@
 {
     "name": "Coursera",
     "image":"mcr.microsoft.com/devcontainers/universal:2",
-    "postCreateCommand": "sudo apt update && sudo apt upgrade -y && pip install virtualenv",
+    "postCreateCommand": "sudo apt update && sudo apt upgrade -y && pip install virtualenv && virtualenv myenv",
+    "postAttachCommand": "source myenv/bin/activate",
 
     // Container specs
     "hostRequirements": {
@@ -17,7 +18,11 @@
         "extensions": [
             "ms-python.python",
             "esbenp.prettier-vscode",
-            "GitHub.copilot"
+            "GitHub.copilot",
+            "yandeu.five-server",
+            "genuitecllc.codetogether",
+            "streetsidesoftware.code-spell-checker",
+            "visualstudioexptteam.vscodeintellicode"
             ]
         }
     },
