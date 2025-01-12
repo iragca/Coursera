@@ -22,8 +22,10 @@
             "yandeu.five-server",
             "genuitecllc.codetogether",
             "streetsidesoftware.code-spell-checker",
-            "visualstudioexptteam.vscodeintellicode"
-            ]
+            "visualstudioexptteam.vscodeintellicode",
+            "vscjava.vscode-java-pack",
+            "formulahendry.code-runner"
+        ]
         }
     },
     "features": {
